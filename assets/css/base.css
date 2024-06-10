@@ -1,0 +1,99 @@
+:root {
+    --text-primary-color: #212121;
+    --text-secondary-color: #505050;
+    --primary-color: #3fd0d4;
+    --hover-primary-color: #0d989c;
+
+    --slider-witch: 3661px;
+}
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Poppins,sans-serif;
+}
+
+body {
+    margin: 0;
+    font-size: 1.4rem;
+    -webkit-user-select: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+.btn {
+    padding: 14px 42px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3 linear;
+}
+
+.btn:hover {
+    background-color: var(--hover-primary-color);
+}
+
+.title {
+    text-align: center;
+    font-size: 6.5rem;
+    color: var(--text-primary-color);
+    font-weight: 600;
+    margin: 0;
+    line-height: 7.2rem;
+}
+
+.title.title-white {
+    color: #fff;
+}
+
+.text_descr {
+    color: #505050;
+}
+
+.text_descr-big {
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 2.8rem;
+}
+
+.text_descr-small {
+    font-size: 1.4rem;
+}
+
+.intro_text {
+    display: block;
+    font-family: Satisfy,cursive;
+    font-size: 3.3rem;
+    line-height: 5rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.block-padding {
+    padding: 145px 0;
+}
+
+.full-height {
+    height: 100vh;
+}
